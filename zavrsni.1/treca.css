@@ -1,0 +1,579 @@
+.glavna-strana {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color:#465157;
+    
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 130px;
+    background-color: #0088cc;
+    color: white;
+}
+.heder-prvi{
+    width: 90%;
+    margin: 0 auto;
+    height: 50px;
+    align-items: center;
+    border-bottom: 0.5px solid #0e95d8;
+}
+.hedertext{
+    display: none;
+}
+#naw1 li a:hover {
+    color: white;
+}
+#naw1 {
+    list-style-type: none;
+    display: none;
+}
+#naw1 li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#naw1 li a {
+    text-decoration: none;
+    color: #BDE1F5;
+    font-size: 11px;
+    font-weight: 700
+}
+.eng1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #bde1f5;
+    font-size: 11px;
+    font-weight: 700;
+}
+.eng{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    flex-basis: 50%;
+    border-right: 0.5px solid #0e95d8;
+    cursor: pointer;
+}
+.eng p:hover {
+    color: white;
+}
+.fin {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    cursor: pointer;
+}
+.fin i:hover {
+    color: white;
+}
+.heder-drugi{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding-top: 5px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    float: left;
+    cursor: pointer;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+.one {
+    font-size: 20px;
+    cursor: pointer;
+}
+.search {
+    display: none;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 45px;
+    border-radius: 30px;
+    background: #f1f1f1;
+}
+.topnav input[type=text1] {
+    width: 66%;
+    height: 50px;
+    text-align: start;
+    color: #8d8d8d;
+  }
+.topnav input[type=text3] {
+    width: 20%;
+    height: 50px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    color: #8d8d8d;
+  }
+.topnav input[type=text2] {
+    width: 10%;
+    height: 50px;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1px;
+    color: #8d8d8d;
+  }
+
+  .usd{
+    flex-basis: 50%;
+}
+.heder-do{
+    display: flex;
+    flex-direction: row;
+    float:right
+}
+#manji {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    float: left;
+    cursor: pointer;
+}
+.one {
+    font-size: 20px;
+    cursor: pointer;
+}
+.logo img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+}
+.search {
+    display: none;
+}
+.call{
+    display: none;
+}
+.telefon {
+    font-size: 30px;
+}
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.broj {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+#sat {
+    font-size: 12px;
+    margin: 0;
+}
+
+.ikone i:hover {
+    color: #BDE1F5;;
+}
+.ikonice {
+    font-size: 12px;
+}
+.fin i:hover {
+    color: white;
+}
+.eng p:hover {
+    color: white;
+}
+.hedertext{
+    display: none;
+}
+.add:hover {
+    background-color: rgba(0,136,204,0.85);
+}
+.zvezdice p:hover {
+color: rgba(0,136,204,0.85);
+}
+.dvadela {
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 1.25rem 0 1rem;
+}
+
+.mrezedrustvene {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.button-text {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    cursor: pointer;
+    height: 50px;
+    border-color: #eeeeee;
+}
+.topnav input[type=text1] {
+    width: 67%;
+    height: 100%;
+    text-align: start;
+    color: #8d8d8d;
+    border: none;
+  }
+  .topnav input[type=text3] {
+    width: 20%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    color: #8d8d8d;
+    border: none;
+  }
+  .topnav input[type=text2] {
+    width: 10%;
+    height: 100%;
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 1px;
+    color: #8d8d8d;
+    border: none;
+  }
+  .foother-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #222529;
+    color: white;
+}
+.glavni-footer{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-left: 5%;
+    gap: 20px;
+    cursor: pointer;
+    background-color: #222529;
+    font-size: 13px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-inline-size: 45ch;
+    line-height: 2;
+  
+}
+
+.customer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-inline-size: 66ch;
+    line-height: 1.65;
+  
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-inline-size: 66ch;
+    line-height: 1.65;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about12 p {
+    margin: 0;
+}
+.customer p {
+    margin: 0;
+}
+.adress p {
+    margin: 0;
+}
+.border {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.kartice {
+    font-size: 20px;
+    font-weight: 400;
+}
+.line {
+    border-bottom: 1px solid #32353a;
+    display: flex;
+    align-items: center;
+}
+.adress {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.customer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-inline-size: 66ch;
+    line-height: 1.65;
+}
+.about1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.about12{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.border1 {
+    border-bottom: 0.5px solid #313438;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 5%;
+    padding-bottom: 30px;
+}
+.leva-slika img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.leva-strana {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.leva-slika {
+    flex-basis: 75%;
+}
+
+.slikedonja {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-basis: 23%;
+    cursor: pointer;
+}
+.slikedonja img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#borderdesna {
+    border-left: 0.5px solid #999999;
+}
+.donja-slika{
+    flex-basis: 22%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding-bottom: 50px;
+}
+.add {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.slika{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.zvezdice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.price del {
+    font-size: 17px;
+}
+.text p {
+    font-size: 1.1428em;
+    line-height: 1.6875;
+}
+.price {
+    font-size: 20px;
+}
+.add {
+    padding: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.simple{
+    display: inline-block;
+    background-color: #222529;
+}
+
+
+
+
+
+@media (min-width: 300px){
+    .zvezdice {
+        display: flex;
+        flex-direction: row;
+    }
+   
+}
+
+@media (min-width: 400px){
+    .ikone {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        font-size: 25px;
+        float: right;
+        cursor: pointer;
+    }
+    .border {
+        display: flex;
+        flex-direction: row;
+}}
+
+
+@media (min-width: 768px) {
+
+    .heder-prvi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: 11px;
+        justify-content: space-between;
+    }
+    .hedertext {
+        display:flex ;
+        flex-direction: row;
+         align-items: center;
+         flex-basis: 40%;
+     }
+     .hedermeni {
+        flex-basis: 40%;
+    }
+    .eng1 {
+        flex-basis: 20%;
+    }
+    .footer1{
+        flex-basis: 50%;
+    }
+    .footer2{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .call{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        cursor: pointer;
+    }
+    .slika {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #naw1 {
+        display: flex;
+        flex-basis: 30%;
+        padding: 0;
+    }
+    .glavni-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .footer22 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .customer{
+        float: left;
+        }
+    .about{
+        float: right;
+    }
+    .mrezedrustvene i :hover {
+        color: rgba(0,136,204,0.85)
+    }
+   
+
+}
+
+@media (min-width: 1200px){
+
+    .search {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+    .desna-strana h2 {
+        font-size: 1.875rem;
+        line-height: 1.2;
+        color: #222529;
+        letter-spacing: -0.01em;
+        font-weight: 700;
+        margin-bottom: 0.2em;
+    }
+}
